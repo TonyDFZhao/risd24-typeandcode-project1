@@ -18,19 +18,134 @@
 
 
 
-
-
-
-
-
-
+    .content{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 15px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        background-color: aliceblue;
+        border: 5px dotted blueviolet;
+        display: block;
+        width: 40%;
+        z-index: 2;
+        
     
+    }
+
+
+    .my_div1{
+        position:absolute;
+        top: 10px;
+        left:10px;
+        height: 1200px;
+        width:25%;
+        animation-name: my-animation;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease-in-out;
+            object-fit: fill;
+   
+
+    }
+
+    @keyframes my-animation {
+			0% {
+				height: 800px;
+                border-radius: 50%;
+                background-color: rgb(0, 242, 255);
+			}
+			50% {
+				height: 1400px;
+				background-color: rgb(30, 18, 204);
+                border-radius: 0%;
+			}
+			100% {
+				height: 200px;
+				background-color: rgb(0, 242, 255);
+				border-radius: 50%;
+            }
+        }
+    
+    .my_div2{
+        position:absolute;
+        top: 10px;
+        right:10px;
+        height: 1200px;
+        width:25%;
+        animation-name: your-animation;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: ease-in-out;
+            object-fit: fill;
+   
+
+    }
+
+    @keyframes your-animation {
+			0% {
+				height: 200px;
+                border-radius: 50%;
+                background-color: rgb(0, 242, 255);
+			}
+			50% {
+				height: 1400px;
+				background-color: rgb(30, 18, 204);
+                border-radius: 0%;
+			}
+			100% {
+				height: 800px;
+				background-color: rgb(0, 242, 255);
+				border-radius: 50%;
+            }
+        }
+
+        img{
+            object-fit: fill;
+        }
+
+    .my_div1 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+
+    }
+
+    .my_div2 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+
 </style>
 
 
 
 
 <body>
-    
+    <div class="content">
+        <p><strong>The Web Is What We Make It</strong><br><br></p>
+        <p>While an individual website could be any of those metaphors I mentioned above, I believe the common prevailing metaphor—the internet as cloud—is problematic. The internet is not one all-encompassing, mysterious, and untouchable thing. (In early patent drawings depicting the internet, it appears as related shapes: a blob, brain, or explosion.) These metaphors obfuscate the reality that the internet is made up of individual nodes: individual computers talking to other individual computers. <br><br>
+            
+            The World Wide Web recently turned 29. On the web’s birthday, Tim Berners Lee, its creator, published a letter stating the web’s current state of threat. He says that while it’s called the “World Wide Web,” only about half the world is connected, so we should close this digital divide. <br><br>
+            But at the same time, Berners Lee wants to make sure this thing we’re all connecting to is truly working for us, as individuals: “I want to challenge us all to have greater ambitions for the web. I want the web to reflect our hopes and fulfill our dreams, rather than magnify our fears and deepen our divisions.” <br><br>
+            
+            “Metaphor unites reason and imagination,” says George Lakoff and Mark Johnson in their book, Metaphors We Live By (1980). “Metaphors are not merely things to be seen beyond. In fact, one can see beyond them only by using other metaphors. It is as though the ability to comprehend experience through metaphor were a sense, like seeing or touching or hearing, with metaphors providing the only ways to perceive and experience much of the world. Metaphor is as much a part of our functioning as our sense of touch, and as precious.” <br><br>
+            Instead of a cloud, let’s use a metaphor that makes the web’s individual, cooperative nodes more visible. This way, we can remember the responsibility we each have in building a better web. The web is a flock of birds or a sea of punctuation marks, each tending or forgetting about their web garden or puddle home with a river of knowledge nearby. <br><br>
+            If a website has endless possibilities, and our identities, ideas, and dreams are created and expanded by them, then it’s instrumental that websites progress along with us. It’s especially pressing when forces continue to threaten the web and the internet at large. In an age of information overload and an increasingly commercialized web, artists of all types are the people to help. Artists can think expansively about what a website can be. Each artist should create their own space on the web, for a website is an individual act of collective ambition. <br><br>
+            -------------------------------------------------------------------------------------------------------<br><br>
+            <i>To accompany this essay, I’ve created a channel on Are.na called “Sparrows talking about the future of the web.” There you’ll find a handful of quotes from essays, also linked, that informed this piece. <br><br>
+            </i>
+        </p>
+
+
+    </div>
+
+    <div class="my_div1"><img src="image_8_Tim_Berners_Lee.png"></div>
+    <div class="my_div2"><img src="image_8_Tim_Berners_Lee.png"></div>
 </body>
 </html>
