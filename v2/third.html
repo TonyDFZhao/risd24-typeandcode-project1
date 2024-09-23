@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatCanAWebsiteBe</title>
+</head>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    @keyframes emoji-size {
+			0% {
+				font-size:80px;
+                
+                
+			}
+			50% {
+				font-size: 100px;
+				background-color: blueviolet;
+                
+			}
+			100% {
+				font-size: 80px;
+				
+				
+            }
+        }
+
+    .big_div{
+        position:absolute;
+        margin-top: 25px;
+        margin-left: 70px;
+        display: table;
+    }
+
+
+        .emoji{
+            width: 120px;
+            height: 120px;
+            text-align: center;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            animation-name: emoji-size;
+            animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                animation-timing-function: ease-in-out;
+
+            
+        
+
+        }
+    
+    .content{
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        
+        margin-top: 25px;
+        margin-left: 200px;
+        float:left;
+        width:400px;
+        height: 720px;
+        background-color: aliceblue;
+        border: 5px dotted blueviolet;
+    }
+
+    .text{
+        margin-left: 150px;
+
+        width:360px;
+        position: absolute;
+        
+    }
+    
+
+    
+                .room_text{
+                    display:none;
+                    margin-top: -100px;
+                    
+
+
+                }
+
+                .shelf_text{
+                    display: none;
+                    margin-top: -220px;
+
+                }
+
+                .plant_text{
+                    display: none;
+                    margin-top: -340px;
+
+                }
+
+                .garden_text{
+                    display: none;
+                    margin-top: -460px;
+
+                }
+
+                .puddle_text{
+                    display: none;
+                    margin-top: -580px;
+
+                }
+                .rock_text{
+                    display: none;
+                    margin-top: -700px;
+
+                }
+
+    
+
+        
+    
+    .room:hover .room_text {
+    display: block;
+    }
+    .room:hover .image-room {
+    display: block;
+    }
+
+
+    .shelf:hover .shelf_text{
+        display: block;
+    }
+    .shelf:hover .image-shelf {
+    display: block;
+    }
+
+
+    .plant:hover .plant_text{
+        display: block;
+    }
+    .plant:hover .image-plant{
+        display: block;
+    }
+
+    .garden:hover .garden_text{
+        display: block;
+    }
+    .garden:hover .image-garden{
+        display: block;
+    }
+
+    .puddle:hover .puddle_text{
+        display: block;
+    }
+    .puddle:hover .image-puddle{
+        display: block;
+    }
+
+    .rock:hover .rock_text{
+        display: block;
+    }
+    .rock:hover .image-rock{
+        display: block;
+    }
+
+
+    img{
+        object-fit: contain;
+        width:600px;
+    }
+
+
+    .image-room{
+        margin-left: 550px;
+        margin-top: -120px;
+        display:none;
+        position: absolute;
+        
+    }
+
+    .image-shelf{
+        margin-left: 550px;
+        margin-top: -240px;
+        display:none;
+        position: absolute;
+    }
+    
+    .image-plant{
+        margin-left: 550px;
+        margin-top: -360px;
+        display:none;
+        position: absolute;
+    }
+    .image-garden{
+        margin-left: 550px;
+        margin-top: -480px;
+        display:none;
+        position: absolute;
+    }
+    .image-puddle{
+        margin-left: 550px;
+        margin-top: -600px;
+        display:none;
+        position: absolute;
+    }    
+    .image-rock{
+        margin-left: 550px;
+        margin-top: -720px;
+        display:none;
+        position: absolute;
+    }    
+
+
+
+    </style>
+
+
+
+
+
+<body>
+    <marquee><strong><br>What Can A Website Be?<br></strong></marquee>
+
+
+<div class="big_div">
+        
+    <div class="room"; style="background-color:aqua">
+        
+        <div class="emoji">&#128682;</div>
+        <div class="text room_text">
+            <p >In an age of information overload, a room is comforting because it's finite, often with a 
+                specific intended purpose.<br><br>
+                Simultaneously, a room can be flexible: you can shift its contents or even include a 
+                temporary partition, depending on occasion. You can also position elements in spatial 
+                juxtaposition, or create entrances to adjacent rooms through links.<br><br>
+                In the early days of The Creative Independent, we sometimes thought of TCI's website like a house next
+                to a river. We considered the interviews the flowing water, as they were our house's nutrients and 
+                source of life. We would collect and drink from the water every day. But sometimes, depending
+                on its nutrient makeup, the water would change our house. We'd wake up to see a new 
+                 door where a picture frame once was. Knowledge became the architect.<br><br>
+                Like any metaphor, it's not perfect. For better or worse, it's much more 
+                difficult to delete a building than a website. <br><br>
+
+            </p>
+        </div>
+        <div class="image-room"><img src="image_1_Louis_Rossetto.jpg"></div>
+        <div class="image-room" style="margin-top: 330px;"><img src="image_2_Orit_Gat.jpg"></div>
+    </div>
+
+
+    <div class="shelf"; style="background-color: aquamarine;">
+        
+        
+        <div class="emoji">&#128452;</div>
+        <div class="text shelf_text">
+            <p>Zooming into this room inside this house, we see a shelf. Maybe a shelf is easier 
+                to think about than a whole room. What does one put on a shelf? Books and objects 
+                from life? Sure, go ahead. Thankfully there's nothing too heavy on the shelf, 
+                or else it would break. A few small things will do, knowledge containing or not. 
+                Plus, lighter things are easy to change out. Is a book or trinket “so last year?” 
+                Move it off the shelf! Consider what surprising juxtapositions you can make on your 
+                little shelf. <br><br></p>
+
+        </div>
+        
+    </div>
+
+
+    <div class="plant"; style="background-color: rgb(244, 183, 248);">
+        
+
+        <div class="emoji">&#127793;</div>
+        <div class="text plant_text">
+            <p>
+            Plants can't be rushed. They grow on their own. Your website can be the same 
+            way, as long as you pick the right soil, water it (but not too much), and provide 
+            adequate sunlight. Plant an idea seed one day and let it gradually grow. <br><br>
+            Maybe it will flower after a couple of years. Maybe the next year it'll bear 
+            fruit, if you're lucky. Fruit could be friends or admiration or money—success 
+            comes in many forms. But don't get too excited or set goals: that's not the 
+            idea here. Like I said, plants can't be rushed. <br><br>
+
+            </p>
+            
+    </div>
+    <div class="image-plant"><img src="image_3_Paul_Ford.png"></div>
+    </div>
+
+
+    <div class="garden"; style="background-color:rgb(232, 232, 200);">
+        
+
+
+        <div class="emoji">&#127800;</div>
+        <div class="text garden_text">
+            <p>
+            Fred Rogers said you can grow ideas in the garden of your mind. Sometimes, once 
+            they're little seedlings and can stand on their own, it helps to plant them outside, 
+            in a garden, next to the others. <br><br>
+            Gardens have their own ways each season. In the winter, not much might happen, and 
+            that's perfectly fine. You might spend the less active months journaling in your 
+            notebook: less output, more stirring around on input. You need both. Plants remind 
+            us that life is about balance. <br><br>
+            It's nice to be outside working on your garden, just like it's nice to quietly sit 
+            with your ideas and place them onto separate pages. <br><br>
+
+            </p>
+        </div>
+        <div class="image-garden"><img src="image_4_Fred_Rogers.png"></div>
+    </div>
+
+
+    <div class="puddle"; style="background-color:rgb(255, 141, 93);">
+        
+
+        <div class="emoji">&#128166;</div>
+        <div class="text puddle_text">
+            <p>
+                A website could also be a puddle. A puddle is a temporary collection of rainwater.
+                They usually appear after rainstorms. Like a storm, creating a website can happen in
+                 a burst. Sometimes it's nice to have a few bursts/storms of creating a website, 
+                 since the zone can be so elusive. Some people even call rain “computer weather.” <br><br>
+                There is also no state of “completeness” to a website, like a puddle, since they're 
+                ephemeral by nature. Sometimes they can be very big and reflective. Despite their 
+                temporal nature, I've even seen some creatures thrive in puddles. Meanwhile, some 
+                smaller puddles may only last a day. <br><br>
+                Not everything, even the most beautiful puddle with its incredible reflective surface, 
+                needs to last long. If the world doesn't end tomorrow, there will be another storm. 
+                And where there's a hole, a puddle will appear again. <br><br>
+                Puddles evaporate slowly over time. It might be difficult, but I would love to see a 
+                website evaporate slowly, too. <br><br>
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="rock"; style="background-color:rgb(157, 166, 62);">
+      
+        <div class="emoji">&#128371;</div>
+        <div class="text rock_text">
+            <p>
+                Sometimes you don't want a website that you'll have to maintain. You have other things 
+                to do. Why not consider your website a beautiful rock with a unique shape which you spent 
+                hours finding, only to throw it into the water until it hits the ocean floor? You will 
+                never know when it hits the floor, and you won't care. <br><br>
+                Thankfully, rocks are plentiful and you can do this over and over again, if you like. 
+                You can throw as many websites as you want into the ocean. When an idea comes, find a 
+                rock and throw it. <br><br>
+
+            </p>
+
+        </div>
+        <div class="image-rock"><img src="image_5_J.R._Carpenter.jpg"></div>
+    </div>
+    
+</div>
+
+<div class="content"></div>
+<div style="
+        font-size: 100px;
+        margin-left: 90%;
+        margin-top:10px;
+       
+        float:bottom;">
+        
+        
+        <a href="final.html">&#9193;</a></div>
+
+    
+
+
+
+
+
+
+</body>
+</html>
