@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Lausanne-350'; 
+    src: url("/v3/TWKLausanne-350.otf"); 
+}
+*{
+    font-family: 'Lausanne-350';
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color:azure;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    }
+    
+.parent{
+    display:grid;
+    grid-template-columns: 1fr 3fr  1fr 1fr;
+    margin:auto;
+    margin-top:100px;
+
+    width: 70vw;
+}
+
+.child{
+    padding:30px;
+    text-align:left;
+    line-height: 1.5em;
+
+}
+.child-1{
+    text-align: left; 
+    font-size: 50px; 
+    
+    text-decoration: underline dotted;
+}
+
+.child-2{
+    font-size: 20px;
+    
+    text-transform: uppercase;
+}
+
+.title{
+    font-size:60px;
+    line-height: 60px;
+}
+
+.name{
+    text-align: right;
+}
+
+.text-title{
+    text-align: left;
+    line-height:18px;
+    font-size:15px;
+}
+
+.child-3{
+    text-decoration: underline dotted 2px;
+}
