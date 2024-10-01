@@ -54,21 +54,6 @@ text-decoration: none;
 
 
 
-@media only screen and (max-width: 1000px){
-    .dropdown{
-        max-width: 200px;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .dropdown{
-        display:none;
-    }
-    .title{
-        font-size: 55px;
-    }
-}
-
 .gap{
     height: 30px;
     margin-left: 35px;
@@ -114,3 +99,21 @@ text-decoration: none;
     }
 }
 
+@media only screen and (max-width: 1000px){
+    .dropdown{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .dropdown{
+        display:none;
+    }
+    .title{
+        font-size: 55px;
+    }
+    .parent{
+        grid-template-columns: 1fr;
+        display:grid;
+    }
+}
